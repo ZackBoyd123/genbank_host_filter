@@ -5,7 +5,7 @@ session_start();
 // print_r($_SESSION["acc_nums"]);
 
 // Database connection
-$dbcon = mysqli_connect("localhost","root","root","filter_lineages");
+$dbcon = mysqli_connect("localhost","gbfilter_user","MypW!23","gb_filter");
 if (mysqli_connect_errno()){
 		echo "Failed to connect to MYSQL:   " . mysqli_connect_error();
 } else {
