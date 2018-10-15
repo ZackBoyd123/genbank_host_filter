@@ -34,6 +34,7 @@ done
 python $python_home"/determine_lineage_host.py" virus ; python $python_home"/determine_lineage_host.py" not_virus
 
 # Upload these files to the DB
+python $python_home"/create_db.py"
 python $python_home"/create_db_2.py"
 
 # Split the Sequence file into all parents for each node. 

@@ -19,7 +19,7 @@ if(isset($_POST['submitted'])){
 }
   
 // Database connection
-$dbcon = mysqli_connect("localhost","root","root","filter_lineages");
+$dbcon = mysqli_connect("127.0.0.1","gbfilter_user","MypW!23","gb_filter");
 if (mysqli_connect_errno()){
 		echo "Failed to connect to MYSQL:   " . mysqli_connect_error();
 } else {
